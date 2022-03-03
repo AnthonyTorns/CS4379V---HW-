@@ -1,0 +1,3 @@
+a. I spent around 4-6 hours on this homework. 
+
+b. I believe the second Replit question was the most difficult. I had trouble organizing the logic when adding a new word, and making sure it could be found if called again.

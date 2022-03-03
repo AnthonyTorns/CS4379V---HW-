@@ -1,0 +1,12 @@
+      1
+    /   \
+   7     9
+ /      / \ 
+10      6  8
+           /\
+          11 12
+Output: 6
+
+b. In my approach, I create a helper function to traverse the tree. In this helper function, I attempt to use the height or depth of the tree to find the diameter of tree. I accomplish this by calculating the path between the left and right child nodes for each subtree and then comparing this to the computed diameter of a given moment. Diameter is global in my method in order to ensure that each subtree is compared against the same value. For each recursive call, I find the max length of the left and right paths then add a plus one to account for the current root node. This value is then returned and compared with the diameter. the greater value is assigned to diameter. 
+
+C. Worst-case time complexity is O(N), where n is the number of nodes in the tree, for each node of the tree my code will recurse N times. The Worst Case Time Complexity is O(1), where n is the number of nodes. For each call 3 variables are created, which is constatn. 
